@@ -1,0 +1,58 @@
+
+div{
+    text-align: center;
+   
+    
+}
+.header{
+    background-color: green;
+    color: white;
+    padding: 70px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+   
+}
+
+.nav{
+    
+    background-color: aqua;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    margin-top: 8px;
+    border-width: thin;
+    padding: 15px;
+
+  
+    
+}
+li {
+    display: inline-block;
+    padding: 20px;
+    
+    
+
+}
+.content{
+
+    background-color: darkblue;
+    color:wheat;
+    text-align: center;
+    padding: 200px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+
+.footer{
+    background-color: blueviolet;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+    margin-top: 8px;
+    border-width: thin;
+
+}
+
