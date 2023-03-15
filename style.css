@@ -1,4 +1,7 @@
 
+*{
+    box-sizing: border-box;
+}
 .header{
    text-align: center;
    background-color:#3C4048;
@@ -12,6 +15,7 @@
     overflow: hidden;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 .nav a{
     padding:14px 12px;
@@ -30,12 +34,49 @@
 }
 
 .nav a:active{
- background-color: #3C4048;
- color: white;
+    background-color: #3C4048;
+    color: white;
 }
 
-.position {
-    padding:3px 10px;
-    box-sizing: border-box;
-    border: 1px solid black;   
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side{
+    flex:30%;
+    background-color: #f1f1f1;
+    color:rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.circle {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    shape-outside: circle();
+    clip-path: circle();
+    background: lightblue;
+    z-index: -1;
+}
+
+.main{
+    flex:70%;
+    background-attachment: white;
+    color:black;
+    padding: 20px;
+}
+.fakeimage{
+      background-color: #3C4048;
+      color:white;
+      text-align: center;
+      padding: 60px;
+}
+
+.footer{
+    background-color: black;
+    color:white;
+    padding:50px;
+    text-align: center;
 }
