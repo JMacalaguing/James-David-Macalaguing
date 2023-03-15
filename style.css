@@ -1,0 +1,41 @@
+
+.header{
+   text-align: center;
+   background-color:#3C4048;
+   color:rgb(255, 255, 255);
+   padding: 60px;
+}
+
+.nav{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+.nav a{
+    padding:14px 12px;
+    float: left;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+.nav a.right{
+    float: right;
+}
+
+.nav a:hover{
+    background-color: white;
+    color:black;
+}
+
+.nav a:active{
+ background-color: #3C4048;
+ color: white;
+}
+
+.position {
+    padding:3px 10px;
+    box-sizing: border-box;
+    border: 1px solid black;   
+}
